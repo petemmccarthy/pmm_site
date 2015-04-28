@@ -71,6 +71,20 @@ p {
   }
 }
 
+/*--- about container ---*/
+.about-container {
+  height: 100%;
+
+  /*display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  padding-left: 17.937219731%;
+  padding-right: 17.937219731%;*/
+}
+
 
 
 
@@ -96,6 +110,148 @@ p {
       height: 150px;
       margin-top: 26%;
     }
+
+
+
+
+/*--- Social media icons container ---*/
+ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  margin-top: 20px;
+}
+.icon-container {
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  width: 320px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+li.link-icon {
+  margin-right: 20px;
+}
+
+a {
+  position: relative;
+    text-decoration: none;
+    display: block;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    width: 60px;
+  text-align: center;
+  
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+ 
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+ 
+height:54px;
+cursor:pointer;
+overflow:hidden;
+ 
+    color: transparent;
+}
+
+#gmail-small{
+ -webkit-box-shadow: 0px 6px 0px #B43828;
+    -moz-box-shadow: 0px 6px 0px #B43828;
+    box-shadow: 0px 6px 0px #B43828;
+}
+#gmail-small{
+  background:#DC4A38 url("../assets/gmail.png") no-repeat center center;
+  background-size: 44px;
+}
+ 
+#gmail-small:active { 
+ -webkit-box-shadow: 0px 2px 0px #B43828;
+    -moz-box-shadow: 0px 2px 0px #B43828;
+    box-shadow: 0px 2px 0px #B43828;
+}
+#gmail-small:hover {
+  background-color: #DB6152;
+  transition: all .1s ease;
+}
+
+    #linkedin-small{
+     -webkit-box-shadow: 0px 6px 0px #1F5E74;
+        -moz-box-shadow: 0px 6px 0px #1F5E74;
+        box-shadow: 0px 6px 0px #1F5E74;
+    }
+    #linkedin-small{
+      -webkit-font-smoothing:antialiased;
+      background:#0F7BA4 url("../assets/linkedin.png") no-repeat center center;
+      background-size: 36px;
+    }
+    #linkedin-small:active{ -webkit-box-shadow: 0px 2px 0px #1F5E74;
+        -moz-box-shadow: 0px 2px 0px #1F5E74;
+        box-shadow: 0px 2px 0px #1F5E74;
+    }
+    #linkedin-small:hover {
+      background-color: #2A8BAF;
+      transition: all .1s ease;
+    }
+
+#github-small{
+ -webkit-box-shadow: 0px 6px 0px #000000;
+    -moz-box-shadow: 0px 6px 0px #000000;
+    box-shadow: 0px 6px 0px #000000;
+}
+#github-small{
+  background:#3A3A3A url("../assets/github.png") no-repeat center center;
+  background-size: 40px;
+  -webkit-font-smoothing: antialiased;
+}
+ 
+#github-small:active{ -webkit-box-shadow: 0px 2px 0px #000000;
+    -moz-box-shadow: 0px 2px 0px #000000;
+    box-shadow: 0px 2px 0px #000000;
+}
+#github-small:hover {
+  background-color: #4E4E4E;
+  transition: all .1s ease;
+}
+ 
+    #twitter-small{
+     -webkit-box-shadow: 0px 6px 0px #2695BC;
+        -moz-box-shadow: 0px 6px 0px #2695BC;
+        box-shadow: 0px 6px 0px #2695BC;
+    }
+    #twitter-small{
+      background:#2CA9E1 url("../assets/twitter_logo.png") no-repeat center center;
+      background-size: 40px;
+      -webkit-font-smoothing: antialiased;
+    }
+     
+    #twitter-small:active{ -webkit-box-shadow: 0px 2px 0px #2695BC;
+        -moz-box-shadow: 0px 2px 0px #2695BC;
+        box-shadow: 0px 2px 0px #2695BC;
+    }
+    #twitter-small:hover {
+      background-color: #4CB4E2;
+      transition: all .1s ease;
+    }
+
+a:active {
+   -webkit-transform: translate(0, 3px);
+  -moz-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+}
+
 
 
 
