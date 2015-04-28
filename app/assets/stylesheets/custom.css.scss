@@ -72,64 +72,8 @@ p {
 }
 
 
-/* footer */
-
-footer {
-  position: fixed;
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid $gray-medium-light;
-  color: $gray-light;
-  a {
-    color: $gray;
-    &:hover {
-      color: $gray-darker;
-    }
-  }
- 
-  ul {
-    float: right;
-    list-style: none;
-    li {
-      float: right;
-      margin-left: 15px;
-    }
-  }
-}
 
 
-
-
-
-
-
-.contact-container {
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 200;
-  height: 500px;
-  padding-top: 10%;
-  background: #C0DEED;
-}
-
-/*#44BF87*/
-  
-  div#contact {
-    height: 4%;
-  }
-  .contact-header-container {
-    width: 47.169%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 8%;
-    /*border-bottom: 1px solid #fff;*/
-  }
-    .contact-header {
-      font-family: "Arapey", sans-serif;
-      -webkit-font-smoothing:antialiased;
-      font-size: 40px;
-      color: blue;
-    }
 /*--- Details container ---*/
 .details-container {
   height: 45%;
@@ -149,171 +93,18 @@ footer {
   }
     #profile-picture {
       border-radius: 50%;
-      height: 350px;
+      height: 150px;
       margin-top: 26%;
     }
- /* .name-and-title {
-    margin-right: auto;
-    margin-left: auto;
-    width: 300px;
-    color: blue;
-    font-size: 1.5em;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    font-weight: 200;
-    -webkit-font-smoothing:antialiased;
-  }
-    #name {
-      margin-top: 15%;
-      margin-bottom: 15%;
-    }
-    #title {
-      margin-top: 15%;
-      font-size: 1em;
-    }*/
 
-/*--- Social media icons container ---*/
-ul {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
 
-  margin-top: 20px;
-}
-.icon-container {
 
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
 
-  width: 320px;
-  padding-left: 20px;
-  margin-right: auto;
-  margin-left: auto;
-}
-li.link-icon {
-  margin-right: 20px;
-}
-
-a {
-  position: relative;
-    text-decoration: none;
-    display: block;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    width: 60px;
-  text-align: center;
-  
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  transform: translate(0, 0);
- 
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  transition: all .2s ease;
- 
-height:54px;
-cursor:pointer;
-overflow:hidden;
- 
-    color: transparent;
-}
-
-#gmail-small{
- -webkit-box-shadow: 0px 6px 0px #B43828;
-    -moz-box-shadow: 0px 6px 0px #B43828;
-    box-shadow: 0px 6px 0px #B43828;
-}
-#gmail-small{
-  background:#DC4A38 url("../app/assets/images/gmail.png") no-repeat center center;
-  background-size: 44px;
-}
- 
-#gmail-small:active { 
- -webkit-box-shadow: 0px 2px 0px #B43828;
-    -moz-box-shadow: 0px 2px 0px #B43828;
-    box-shadow: 0px 2px 0px #B43828;
-}
-#gmail-small:hover {
-  background-color: #DB6152;
-  transition: all .1s ease;
-}
-
-    #linkedin-small{
-     -webkit-box-shadow: 0px 6px 0px #1F5E74;
-        -moz-box-shadow: 0px 6px 0px #1F5E74;
-        box-shadow: 0px 6px 0px #1F5E74;
-    }
-    #linkedin-small{
-      -webkit-font-smoothing:antialiased;
-      background:#0F7BA4 url("../images/linkedin.png") no-repeat center center;
-      background-size: 36px;
-    }
-    #linkedin-small:active{ -webkit-box-shadow: 0px 2px 0px #1F5E74;
-        -moz-box-shadow: 0px 2px 0px #1F5E74;
-        box-shadow: 0px 2px 0px #1F5E74;
-    }
-    #linkedin-small:hover {
-      background-color: #2A8BAF;
-      transition: all .1s ease;
-    }
-
-#github-small{
- -webkit-box-shadow: 0px 6px 0px #000000;
-    -moz-box-shadow: 0px 6px 0px #000000;
-    box-shadow: 0px 6px 0px #000000;
-}
-#github-small{
-  background:#3A3A3A url("../images/github.png") no-repeat center center;
-  background-size: 40px;
-  -webkit-font-smoothing: antialiased;
-}
- 
-#github-small:active{ -webkit-box-shadow: 0px 2px 0px #000000;
-    -moz-box-shadow: 0px 2px 0px #000000;
-    box-shadow: 0px 2px 0px #000000;
-}
-#github-small:hover {
-  background-color: #4E4E4E;
-  transition: all .1s ease;
-}
- 
-    #twitter-small{
-     -webkit-box-shadow: 0px 6px 0px #2695BC;
-        -moz-box-shadow: 0px 6px 0px #2695BC;
-        box-shadow: 0px 6px 0px #2695BC;
-    }
-    #twitter-small{
-      background:#2CA9E1 url("../images/twitter_logo.png") no-repeat center center;
-      background-size: 40px;
-      -webkit-font-smoothing: antialiased;
-    }
-     
-    #twitter-small:active{ -webkit-box-shadow: 0px 2px 0px #2695BC;
-        -moz-box-shadow: 0px 2px 0px #2695BC;
-        box-shadow: 0px 2px 0px #2695BC;
-    }
-    #twitter-small:hover {
-      background-color: #4CB4E2;
-      transition: all .1s ease;
-    }
-
-a:active {
-   -webkit-transform: translate(0, 3px);
-  -moz-transform: translate(0, 3px);
-  transform: translate(0, 3px);
-}
 
 /*--- Footer ---*/
 .footer {
   height: 70px;
-  background: #343434;
+  /*background: #343434;*/
   color: #FFF;
 }
   .footer-content-container {
@@ -330,7 +121,7 @@ a:active {
       width: 180px;
       font-size: 14px;
       font-weight: 200;
-      margin-left: 25px;
+      margin-left: 5px;
       -webkit-font-smoothing: antialiased;
       /* margin-top: auto; */
       vertical-align: middle;
@@ -345,36 +136,3 @@ a:active {
       vertical-align: middle;
       line-height: 70px;
     }
-
-
-  /* --- RESPONSIVE Contact + Footer section --- */
-
-@media screen and (max-width: 800px) {
-
-  .details-container {
-    flex-direction: column;
-    height: 475px;
-  }
-  .contact-container {
-    height: 800px;
-  }
-  .name-and-email {
-    padding-top: 2%;
-    width: 250px;
-  }
-  .contact-container ul {
-    margin-top: 1%
-  }
-
-  .footer-text {
-    width: 160px;
-    margin-left: 15%;
-  }
-  .signature {
-    width: 160px;
-    margin-left: 3%;
-  }
-}
-
-
-
