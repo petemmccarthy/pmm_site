@@ -27,6 +27,23 @@ textarea {
   }
 }
 
+.nav {
+  float: right;
+  width: 300px;
+  // margin: 15px 0px 0px 0px;
+  font-size: 1em;
+  color: $gray-light;
+  padding-top: 10px;
+  &:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
+
+.table-header-1, .table-header-2  {
+  width: 500px;
+}
+
 
 /* typography */
 
@@ -60,14 +77,14 @@ p {
 #logo {
   float: left;
   width: 250px;
-  margin-right: 10px;
+  margin: 15px 0px 0px 0px;
   font-size: 1em;
-  color: blue;
+  color: $gray-light;
   letter-spacing: -1px;
   padding-top: 9px;
-  font-weight: bold;
+  // font-weight: bold;
   &:hover {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
   }
 }
@@ -75,13 +92,13 @@ p {
 /*--- about container ---*/
 .about-container {
   height: 100%;
-  background: #C0DEED;
+  // background: #C0DEED;
   /*display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
+
   padding-left: 17.937219731%;
   padding-right: 17.937219731%;*/
 }
@@ -91,7 +108,7 @@ p {
 
 /*--- Details container ---*/
 .details-container {
-  height: 45%;
+  // height: 100%;
   background: #C0DEED;
 
   display: -webkit-box;
@@ -99,9 +116,9 @@ p {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
-  padding-left: 17.937219731%;
-  padding-right: 17.937219731%;
+
+  // padding-left: 17.937219731%;
+  // padding-right: 17.937219731%;
 }
   .image-container {
     margin-right: auto;
@@ -112,8 +129,6 @@ p {
       height: 150px;
       margin-top: 26%;
     }
-
-
 
 
 /*--- Social media icons container ---*/
@@ -134,7 +149,8 @@ ul {
   display: -webkit-flex;
   display: flex;
 
-  width: 320px;
+  width: 350px;
+  height: 66px;
   padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
@@ -149,23 +165,23 @@ a {
     display: block;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    width: 60px;
+    width: 66px;
   text-align: center;
-  
+
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   transform: translate(0, 0);
- 
+
   -webkit-transition: all .2s ease;
   -moz-transition: all .2s ease;
   -ms-transition: all .2s ease;
   -o-transition: all .2s ease;
   transition: all .2s ease;
- 
+
 height:54px;
 cursor:pointer;
 overflow:hidden;
- 
+
     color: transparent;
 }
 
@@ -178,8 +194,8 @@ overflow:hidden;
   background:#DC4A38 url("../assets/gmail.png") no-repeat center center;
   background-size: 44px;
 }
- 
-#gmail-small:active { 
+
+#gmail-small:active {
  -webkit-box-shadow: 0px 2px 0px #B43828;
     -moz-box-shadow: 0px 2px 0px #B43828;
     box-shadow: 0px 2px 0px #B43828;
@@ -218,7 +234,7 @@ overflow:hidden;
   background-size: 40px;
   -webkit-font-smoothing: antialiased;
 }
- 
+
 #github-small:active{ -webkit-box-shadow: 0px 2px 0px #000000;
     -moz-box-shadow: 0px 2px 0px #000000;
     box-shadow: 0px 2px 0px #000000;
@@ -227,7 +243,7 @@ overflow:hidden;
   background-color: #4E4E4E;
   transition: all .1s ease;
 }
- 
+
     #twitter-small{
      -webkit-box-shadow: 0px 6px 0px #2695BC;
         -moz-box-shadow: 0px 6px 0px #2695BC;
@@ -238,7 +254,7 @@ overflow:hidden;
       background-size: 40px;
       -webkit-font-smoothing: antialiased;
     }
-     
+
     #twitter-small:active{ -webkit-box-shadow: 0px 2px 0px #2695BC;
         -moz-box-shadow: 0px 2px 0px #2695BC;
         box-shadow: 0px 2px 0px #2695BC;
@@ -263,12 +279,13 @@ a:active {
 .footer {
   height: 70px;
   /*background: #343434;*/
+  position: fixed;
   color: #FFF;
 }
   .footer-content-container {
     width: 100%;
     height: 70px;
-    
+
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;

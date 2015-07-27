@@ -18,6 +18,7 @@ secrets.yml
 /log/*
 !/log/.keep
 /tmp
+tmp
 
 # Ignore Spring files.
 /spring/*.pid

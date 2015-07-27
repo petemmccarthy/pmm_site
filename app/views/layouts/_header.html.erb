@@ -1,13 +1,13 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to "www.petemmccarthy.com", root_path, id: "logo" %>
+    <h4><%= link_to "www.petemmccarthy.com", root_path, id: "logo" %></h4>
     <nav>
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right text-center">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", root_path %></li>
         <li><%= link_to "Work", root_path %></li>
         <li><%= link_to "Contact", root_path %></li>
-        <li><%= link_to 'Blog', controller: 'articles' %></li>
+        <li><%= link_to "Blog", controller: "articles" %></li>
       </ul>
     </nav>
   </div>
