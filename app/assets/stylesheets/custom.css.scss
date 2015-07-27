@@ -92,6 +92,7 @@ p {
 /*--- about container ---*/
 .about-container {
   height: 100%;
+  width: 100%;
   // background: #C0DEED;
   /*display: -webkit-box;
   display: -moz-box;
@@ -108,7 +109,8 @@ p {
 
 /*--- Details container ---*/
 .details-container {
-  // height: 100%;
+  height: 100%;
+  width: 100%;
   background: #C0DEED;
 
   display: -webkit-box;
